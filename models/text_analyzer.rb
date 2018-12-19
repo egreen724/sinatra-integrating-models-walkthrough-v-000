@@ -16,7 +16,11 @@ class TextAnalyzer
   end
   
   def count_of_consonants 
-    text.scan(/[])
+    text.scan(/[bcdfghjklmnpqrstvwxyz]/).count 
+  end
+  
+  def most_used_letter
+    s1 = text.gsub()
   
 end
 
